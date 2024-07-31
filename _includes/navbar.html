@@ -1,13 +1,8 @@
 <nav>
-    <a href="/">Home</a>
-    <a href="/sobre.html">Sobre</a>
-</nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url==item.link %} style="color: red;" {% endif %}>
+        {{ item.name }}
+    </a>
+    {% endfor %}
 
-<nav>
-    <a href="/" {% if page.url=="/" %} style="color: red;" {% endif %}>
-        Home
-    </a>
-    <a href="/sobre.html" {% if page.url=="/sobre.html" %} style="color: yellow;" {% endif %}>
-        Sobre
-    </a>
 </nav>
