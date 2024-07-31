@@ -1,0 +1,13 @@
+<nav>
+    <a href="/">Home</a>
+    <a href="/sobre.html">Sobre</a>
+</nav>
+
+<nav>
+    <a href="/" {% if page.url=="/" %} style="color: red;" {% endif %}>
+        Home
+    </a>
+    <a href="/sobre.html" {% if page.url=="/sobre.html" %} style="color: yellow;" {% endif %}>
+        Sobre
+    </a>
+</nav>
