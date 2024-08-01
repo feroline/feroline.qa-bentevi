@@ -1,8 +1,17 @@
 /* TODO: Converter arquivo em SASS para ser melhor interpretado pelo */
+:root {
+	--rodape-height: 6em;
+}
+
 #navbar-top {
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    transition: top 0.3s; 
-  }
-  
+	transition: top 0.3s;
+}
+
+#rodape {
+	height: fit-content;
+	margin: var(--rodape-height) 0.5em 0.5em 0.5em;
+}
+
+.conteudo {
+	margin-bottom: calc(var(--rodape-height) + 2em);
+}

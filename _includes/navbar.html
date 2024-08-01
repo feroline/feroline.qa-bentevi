@@ -1,33 +1,25 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar-top">
-    <div class="container">
+<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary m-2" id="navbar-top">
+    <div class="container-fluid">
         <a class="navbar-brand">
             <img src="/assets/images/bem-te-vi-logo-temporaria.png" alt="Logo" width="30" height="24"
                 class="d-inline-block align-text-top">
             QA Bentevi
         </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex flex-row-reverse">
-
-            <ul class="navbar-nav ">
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 {% for item in site.data.navigation %}
                 <li class="nav-item">
 
-                    <a href="{{item.link}}" aria-current="page" 
-                        {% if page.url==item.link %} 
-                            class="nav-link active" {%
-                        else %}
-                            class="nav-link"
-                        {% endif %}>
+                    <a href="{{item.link}}" aria-current="page" {% if page.url==item.link %} class="nav-link active" {%
+                        else %} class="nav-link" {% endif %}>
                         {{item.name}}
                     </a>
                 </li>
                 {% endfor %}
-
             </ul>
         </div>
     </div>

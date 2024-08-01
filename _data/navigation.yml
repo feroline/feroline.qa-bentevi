@@ -1,4 +1,4 @@
 - name: Home
   link: /
-- name: Blog
-  link: /pages/blog.html
+- name: Sobre
+  link: /pages/sobre.html
