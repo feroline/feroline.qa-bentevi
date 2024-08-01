@@ -1,0 +1,8 @@
+/* TODO: Converter arquivo em SASS para ser melhor interpretado pelo */
+#navbar-top {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s; 
+  }
+  
