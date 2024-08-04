@@ -2,19 +2,9 @@
 layout: default
 ---
 <!-- TODO: INCREMENTAR MAIS ESSE TÍTULO -->
-<h1> {{ page.indice }} - {{ page.title }}</h1>  
+<h1> {{ page.indice }} - {{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-<p> Resumo - {{page.title}} - Syllabus 4.0 - CTFL </p>
+<p> Resumo do Syllabus 4.0 para Certified Tester Foundation Level - CTFL </p>
 
 
-<div class="container"> 
- 
-  {% if page.capitulo == 1 %}
-    {% for item in site.ctfl_capitulo_1 reversed %}
-      {% include mountAccordion.html.html %}
-    {% endfor %}
-  {% endif %}
-
-
-</div>
- 
+{{content}}

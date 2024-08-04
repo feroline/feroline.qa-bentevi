@@ -1,0 +1,23 @@
+---
+layout: CTFL-resumo
+author: Ana Carolina Rodrigues Rocha
+title: Teste ao longo do Ciclo de Vida de Desenvolvimento de Software 
+capitulo: 2
+indice: 2
+---
+
+<p> 
+    Colocar aqui os objetivos de aprendizado do capítulo com base na página 12 
+</p>
+  
+{% assign capitulo = site.ctfl_resumo | sort: "order" |  where: "capitulo", page.capitulo %}
+
+{% for item in capitulo %}
+    {% include mountAccordion.html item=item %}
+{% endfor %}
+
+
+
+
+
+

@@ -1,8 +1,5 @@
-# TODO: Organizar collections em um diretório
+collections_dir: collections
 collections:
-  ctfl_capitulo_1:  
-    output: true   
-  ctfl_capitulo_2:
-    output: true
-
+  ctfl_resumo:
+    
     

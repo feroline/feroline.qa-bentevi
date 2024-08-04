@@ -1,15 +1,20 @@
-<div class="accordion accordion-flush {% if item.subcapitulo == true %} ms-5 {% endif %}">
+<!-- 
+    @VARIAVEL: item, que representa o arquivo da collection recebida que será montada com seus respectivos dados
+    @ESTRUTURA: do accordion item{subcapitulo:boolean, subindice:boolean, indice:string, title:string, content: <html>|string}: 
+    @RETORNA: o accordion montado com todos os dados da collection recebida 
+  -->
+<div class="accordion accordion-flush {% if include.item.subcapitulo == true %} ms-3 {% endif %} {% if include.item.subindice == true %} ps-3 {% endif %} ">
      
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#{{item.indice}}" aria-expanded="false" aria-controls="flush-collapseOne">
-                {{item.indice}} - {{item.title}}
+                {{include.item.indice}} - {{include.item.title}}
             </button>
         </h2>
-        <div id="{{item.indice}}" class="accordion-collapse collapse">
+        <div id="{{include.item.indice}}" class="accordion-collapse collapse">
             <div class="accordion-body">
-                <span> {{item.content}} </span>
+                <span> {{include.item.content}} </span>
             </div>
         </div>
     </div>
