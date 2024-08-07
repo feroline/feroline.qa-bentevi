@@ -1,0 +1,9 @@
+- name: email
+  link: mailto:qabentevi@gmail.com 
+  svgPath: svg/email.svg
+- name: linkedin
+  link: https://www.linkedin.com/in/anacarolinarodriguesrocha/
+  svgPath: svg/linkedin.svg
+- name: github
+  link: https://github.com/feroline
+  svgPath: svg/github.svg

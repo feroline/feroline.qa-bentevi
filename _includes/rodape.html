@@ -2,15 +2,15 @@
     <div class="container justify-content-center">
         <footer>
             <ul class="nav justify-content-center border-bottom mb-3">
+                {% for contato in site.data.contatos reversed %}
+
                 <li class="nav-item">
-                    {% include svg/linkedin.html %}
+                    <a href="{{contato.link}}" class="nav-link px-2 text-muted">
+                        {% include {{ contato.svgPath }} %}
+                    </a>
                 </li>
-                <li class="nav-item">
-                    {% include svg/github.html %}
-                </li>
-                <li class="nav-item">
-                    {% include svg/email.html %}
-                </li>
+                
+                {% endfor %}
             </ul>
             <p class="text-center text-muted">© 2024 QA Bentevi por Ana Rocha. Todos os direitos reservados </p>
         </footer>
