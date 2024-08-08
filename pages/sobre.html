@@ -142,37 +142,23 @@ title: Sobre
                             </div>
 
                             <p>Redes de contato: </p>
-                            
-                                <div class=" container justify-content-center">
-                                   
-                                        <ul class="nav justify-content-center">
-                                            {% for contato in site.data.contatos reversed %}
-                            
-                                            <li class="nav-item">
-                                                <a href="{{contato.link}}" class="nav-link px-2 text-muted">
-                                                    {% include {{ contato.svgPath }} %} - {{ contato.name }}
-                                                </a>
-                                            </li>
-                                            
-                                            {% endfor %}
-                                        </ul>
-                                    
-                                </div>
-              
 
+                            <div class=" container justify-content-center">
 
+                                <ul class="nav justify-content-center">
+                                    {% for contato in site.data.contatos reversed %}
 
-                            <!-- <ul class="justify-content-center border-bottom mb-3">
-                                {% for contato in site.data.contatos reversed %}
+                                    <li class="nav-item">
+                                        <a href="{{contato.link}}" class="nav-link px-2 text-muted">
+                                            {% include {{ contato.svgPath }} %} - {{ contato.name }}
+                                        </a>
+                                    </li>
 
-                                <li class="item">
-                                    <a href="{{contato.link}}" class="nav-link px-2 text-muted">
-                                        {% include {{ contato.svgPath }} %}
-                                    </a>
-                                </li>
+                                    {% endfor %}
+                                </ul>
 
-                                {% endfor %}
-                            </ul> -->
+                            </div>
+
                         </div>
                     </div>
                 </div>
