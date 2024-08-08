@@ -19,7 +19,7 @@ title: Sobre
                         <ul class="list-group list-group-horizontal">
                            
                             <li class="list-group-item">
-                                <p class="fw-bold">Difundir a cultura de Qualidade</p>
+                                <p class="fw-bold"> {% include svg/chart-pie.svg %} Difundir a cultura de Qualidade</p>
                                 <p class="text-secondary">
                                     Assim como o bem-te-vi se encontra em quase todo o continente americano, devemos nos
                                     encontrar em todos os territórios organizacionais e de desenvolvimento de software,
@@ -27,7 +27,7 @@ title: Sobre
                                 </p>
                             </li>
                             <li class="list-group-item">
-                                <p class="fw-bold">Comunicação</p>
+                                <p class="fw-bold"> {% include svg/message.svg %} Comunicação</p>
                                 <p class="text-secondary">
                                     A boa prática da comunicação é indispensável, ainda mais para os portadores das más
                                     notícias (Testadores), desta forma devemos buscar assim como o bem-te-vi,
@@ -35,7 +35,7 @@ title: Sobre
                                 </p>
                             </li>
                             <li class="list-group-item">
-                                <p class="fw-bold">Ser Adaptável</p>
+                                <p class="fw-bold">{% include svg/transform.svg %} Ser Adaptável</p>
                                 <p class="text-secondary">
                                     Nós dentro da Garantia de Qualidade devemos buscar nos adaptar diantes das condições
                                     que nos são apresentadas,sejam elas adversar ou não, 
@@ -57,12 +57,29 @@ title: Sobre
                                 Foco em :
                                 - Github - linkedin e - e-mail
                             </p>
-                            <ul class="list-group">
-                                <li class="list-group-item">- Garantia de Qualidade e Testes Manuais</li>
-                                <li class="list-group-item">- Automação de Testes</li>
-                              </ul>
-                               
 
+                            <div class="container overflow-hidden text-center">
+                                <div class="row gx-5">
+                                  <div class="col">
+                                   <div class="p-3 fw-bold"> {% include svg/bug-off.svg %} Garantia de Qualidade e Testes Manuais</div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="p-3 fw-bold"> {% include svg/automation.svg %} Automação de Testes</div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <ul class="justify-content-center border-bottom mb-3">
+                                {% for contato in site.data.contatos reversed %}
+                
+                                <li class="item">
+                                    <a href="{{contato.link}}" class="nav-link px-2 text-muted">
+                                        {% include {{ contato.svgPath }} %}
+                                    </a>
+                                </li>
+                                
+                                {% endfor %}
+                            </ul>
                         </div>
                     </div>
                 </div>
