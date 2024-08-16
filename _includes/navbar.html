@@ -14,8 +14,8 @@
                 {% for item in site.data.navigation %}
                 <li class="nav-item">
 
-                    <a href="/feroline.qa-bentevi{{item.link}}" aria-current="page" {% if page.url==item.link %}
-                        class="nav-link active" {% else %} class="nav-link" {% endif %}>
+                    <a href="{{item.link}}" aria-current="page" {% if page.url==item.link %} class="nav-link active" {%
+                        else %} class="nav-link" {% endif %}>
                         {{item.name}}
                     </a>
                 </li>
