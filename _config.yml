@@ -1,4 +1,4 @@
-permalink: /feroline.qa-bentevi/
+permalink: /feroline.qa-bentevi/:categories/:year/:month/:day/:title
 collections_dir: collections
 collections:
   ctfl_resumo:
