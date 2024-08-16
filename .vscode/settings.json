@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "{**/*:Zone.Identifier}": true
+    },
+    "search.useGlobalIgnoreFiles": false,
+}
