@@ -1,5 +1,15 @@
+lsi: false
+safe: true
+source: /feroline.qa-bentevi
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 collections_dir: collections
 collections:
   ctfl_resumo:
     
-    
+  
