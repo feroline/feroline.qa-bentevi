@@ -5,6 +5,7 @@ order: 111
 subcapitulo: true
 subindice: true
 title: Objetivos do teste
+permalink: /feroline.qa-bentevi/resumo-ctfl/fundamentos-do-teste/objetivos-do-teste
 ---
 
 

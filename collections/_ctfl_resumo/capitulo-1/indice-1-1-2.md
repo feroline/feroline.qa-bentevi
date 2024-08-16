@@ -5,6 +5,7 @@ order: 112
 subcapitulo: true
 subindice: true
 title: Teste e depuração
+permalink: /feroline.qa-bentevi/resumo-ctfl/fundamentos-do-teste/teste-e-depuracao
 ---
 
 

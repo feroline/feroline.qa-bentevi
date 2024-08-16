@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /feroline.qa-bentevi/
 ---
 <h1 class="justify-content-start"> Últimos posts </h1>
 
@@ -12,10 +13,10 @@ title: Home
             <h5 class="mb-1 "> {% if post.indice %} {{ post.indice }} - {% endif %} {{post.title}}</h5>
             <small>{{ post.date | date_to_string }}</small>
         </div>
-        <div class="card-body">  
+        <div class="card-body">
             <p class="card-text">{{ post.excerpt }}</p>
         </div>
     </a>
-    
+
 </div>
 {% endfor %}
