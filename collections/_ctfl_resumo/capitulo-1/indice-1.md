@@ -5,6 +5,7 @@ order: 1
 subcapitulo: false
 subindice: false
 title: Fundamentos do Teste - Palavras Chave
+permalink: /feroline.qa-bentevi/resumo-ctfl-4/fundamentos-do-teste
 ---
 
 <div class="d-inline">
