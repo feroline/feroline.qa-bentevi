@@ -1,7 +1,10 @@
 <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary m-2" id="navbar-top">
     <div class="container-fluid">
         <a class="navbar-brand">
-            <img src="/feroline.qa-bentevi/assets/images/bem-te-vi-logo-temporaria.png" alt="Logo" width="30"
+            <!-- For documents/pages whose URLs can change... -->
+            <!-- [{{ page.title }}]("{{ page.url | relative_url }}") -->
+            <!-- <link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet"> -->
+            <img src="{{'/assets/images/bem-te-vi-logo-temporaria.png' | relative_url}}" alt="Logo" width="30"
                 height="24" class="d-inline-block align-text-top">
             QA Bentevi
         </a>
@@ -14,8 +17,8 @@
                 {% for item in site.data.navigation %}
                 <li class="nav-item">
 
-                    <a href="{{item.link}}" aria-current="page" {% if page.url==item.link %} class="nav-link active" {%
-                        else %} class="nav-link" {% endif %}>
+                    <a href="{{item.link | relative_url}}" aria-current="page" {% if page.url==item.link %}
+                        class="nav-link active" {% else %} class="nav-link" {% endif %}>
                         {{item.name}}
                     </a>
                 </li>
