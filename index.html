@@ -8,7 +8,7 @@ title: Home
 {% for post in site.posts %}
 
 <div class="list-group p-2">
-    <a href="{{ post.url }}" class="card list-group-item list-group-item-action ">
+    <a href="{{ post.url | relative_url }}" class="card list-group-item list-group-item-action ">
         <div class="card-header">
             <h5 class="mb-1 "> {% if post.indice %} {{ post.indice }} - {% endif %} {{post.title}}</h5>
             <small>{{ post.date | date_to_string }}</small>
