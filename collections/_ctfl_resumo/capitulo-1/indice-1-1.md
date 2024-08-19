@@ -7,5 +7,13 @@ subindice: false
 title: O que é teste ?
 ---
 
-<p class="text-start"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p> É o conjunto de atividades que visam <b>avaliar a qualidade</b>, <b>encontrar defeitos</b> e consequentemente <b>reduzir riscos e falhas</b> de um artefato de software ou outro produto de trabalho que esteja sendo testado. 
 </p>
+
+<p> Envolve <b>verificação</b> (verifica se o sistema atende aos requisitos especificados) e <b>validação</b> (validar se o sistema atende as necessidades do usuários e outros stakeholders). 
+</p>
+
+<p> As atividades podem ser de testes <b>estáticos</b> (revisões e análise) e testes <b>dinâmicos</b> (execução do software). Utilizando diferentes técnicas e abordagens de teste para gerar casos de teste. </p>
+
+<p>O teste precisa ser Planejado, gerenciado, estimado, monitorado e controlado.</p>
+
