@@ -17,3 +17,4 @@ title: O que é teste ?
 
 <p>O teste precisa ser Planejado, gerenciado, estimado, monitorado e controlado.</p>
 
+<p><b>Produto de trabalho:</b> É o item que está sendo avaliado pelas a atividade de teste. Ex.: Fruto do trabalho da equipe de desenvolvimento.</p>

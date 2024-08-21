@@ -7,6 +7,15 @@ subindice: true
 title: Objetivos do teste
 ---
 
-
-<p class="text-start"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<p>Os objetivos típicos dos testes são:</p>
+<ul>
+    <li>Avaliar produtos de trabalho</li>
+    <li>Identificar falhas e defeitos</li>
+    <li>Garantir a cobertura</li>
+    <li>Reduzir riscos</li>
+    <li>Verificar requisitos e se foram atendidos</li>
+    <li>Verificar requisitos contratuais, legais e normativos</li>
+    <li>Fornecer informações aos stakeholders</li>
+    <li>Criar confiança na qualidade do objeto de teste</li>
+    <li>Validar objeto de teste</li>
+</ul>
