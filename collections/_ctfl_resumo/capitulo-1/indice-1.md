@@ -7,6 +7,8 @@ subindice: false
 title: Fundamentos do Teste - Palavras Chave
 ---
 
+<!-- TODO: Adicionar plugin do github pages que tem indices organizados automaticamente, retirando o order das variaveis -->
+
 <div class="d-inline">
   <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/cobertura">
     <span class="badge rounded-pill bg-dark">Cobertura</span>

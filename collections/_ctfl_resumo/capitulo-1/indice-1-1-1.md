@@ -1,7 +1,7 @@
 ---
 capitulo: 1
 indice: 1.1.1
-order: 111
+order: 3
 subcapitulo: true
 subindice: true
 title: Objetivos do teste

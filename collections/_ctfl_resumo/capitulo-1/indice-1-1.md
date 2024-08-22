@@ -1,8 +1,8 @@
 ---
 capitulo: 1
 indice: 1.1
-order: 11
-subcapitulo: trueS
+order: 2
+subcapitulo: true
 subindice: false
 title: O que é teste ?
 ---
