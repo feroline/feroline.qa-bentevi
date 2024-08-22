@@ -5,9 +5,7 @@ order: 112
 subcapitulo: true
 subindice: true
 title: Teste e depuração
-
 ---
-
 
 <p>O <b>Teste</b> aciona e identifica falhas e defeitos no produto de trabalho. Análisa seus impactos e pode ser realizado em qualquer fase do ciclo de vida do software. </p>
 
