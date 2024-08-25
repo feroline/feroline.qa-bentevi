@@ -1,4 +1,5 @@
 baseurl: /feroline.qa-bentevi
+timezone: America/Araguaina
 collections_dir: collections
 collections:
-  ctfl_resumo:
+ ctfl_resumo:
