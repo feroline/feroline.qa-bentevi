@@ -13,4 +13,4 @@ title: Teste e depuração
 <br> Após o teste dinâmico: Reproduzir a falha &rarr; encontrar a causa &rarr; corrigir a causa.
 <br> Após o teste estático: corrigir a causa. </p>
 
-<p>Após seguir esses passos é realizado os <b>testes de confirmação</b> para verificar a correção e os <b>testes de regressão</b>, para verificar se não há efeitos colaterais em outras partes do software que utilizam a funcionalidade corrigida. </p>
+<p>Após seguir esses passos é realizado o <b>teste de confirmação</b>, para verificar a correção, e o <b>teste de regressão</b>, para verificar se não há efeitos colaterais em outras partes do software que utilizam a funcionalidade corrigida. </p>

@@ -15,8 +15,8 @@ title: Erros, Defeitos, Falhas e Causas-raiz
 
 <p><b>Causa-raiz:</b> É a situação que leva o ser humano ao erro, ou seja, a principal causa do erro. Deve ser analisada quando uma falha ou defeito é detectado, e ao corrigí-la outras falhas e defeitos podem ser evitados ou ter a frequência menor. </p>
 
-<p>Segue a exemplificação abaixo:</p>
+<p>Segue o fluxo:</p>
 
 <div class="text-center">
-    <img src="../../../assets/images/causa-raiz_erro_defeito_falha.png">
+    <img class="img-fluid" src="../../../assets/images/causa-raiz_erro_defeito_falha.png">
 </div>

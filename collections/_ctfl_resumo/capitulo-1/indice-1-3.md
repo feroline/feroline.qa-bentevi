@@ -7,21 +7,21 @@ subindice: false
 title: Princípios de Teste
 ---
 
-<p>7 Princípios de Teste</p>
+<p>7 Princípios de Teste: </p>
 
 <ol>
     <li>
         <b>O teste mostra a presença de defeitos, não a sua ausência:</b>
         <ul>
-            <li>Mostra que os defeitos estão presentes no objeto de teste, mas não que não existem.</li>
-            <li>Reduz a probabilidade de defeitos no objeto de teste.</li>
+            <li>O teste mostra que os defeitos estão presentes no objeto de teste, mas não que não existam.</li>
+            <li>O teste reduz a probabilidade de defeitos no objeto de teste.</li>
         </ul>
     </li>
     <li>
         <b>Testes exaustivos são impossíveis:</b>
         <ul>
             <li>Testar tudo nem sempre é viável, por motivos como tempo, esforço, orçamento, etc.</li>
-            <li>Os esforços dos testes devem ser concentrados por meio de técnicas de teste, priorização de casos de teste e teste baseado em risco</li>
+            <li>Os esforços dos testes devem ser concentrados por meio de técnicas de teste, priorização de casos de teste e teste baseado em risco.</li>
         </ul>
     </li>
     <li>
@@ -49,14 +49,14 @@ title: Princípios de Teste
         <b>Os testes dependem do contexto:</b>
         <ul>
             <li>Não existe uma abordagem universal para os testes.</li>
-            <li>Os testes são feitos de forma diferente em contexto diferente.</li>
+            <li>Os testes são feitos de formas diferentes em contextos diferentes.</li>
         </ul>
     </li>
     <li>
         <b>Falácia da ausência de defeitos:</b>
         <ul>
             <li>Um sistema livre de defeitos, aonde a verificação é contínua, não garante que ele seja um sucesso.</li>
-            <li>A validação também deve ser realizada para que os objetivos de negócios e expectativas dos usuários e stakeholders sejam atendidas.</li>
+            <li>A validação também deve ser realizada para que os objetivos de negócios e expectativas do usuário e stakeholders sejam atendidas.</li>
         </ul>
     </li>
 </ol>
