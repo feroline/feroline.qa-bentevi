@@ -15,5 +15,5 @@ title: Testware
     <li><b>Modelagem de teste:</b> Casos de teste, cartas de teste, itens de cobertura, requisitos de dados, requisitos de ambiente.</li>
     <li><b>Implementação de teste:</b> Procedimentos de teste, scripts de teste automatizados, conjuntos de teste, dados de teste, cronograma de execução, elementos do ambiente de teste.</li>
     <li><b>Execução de teste:</b> Registro de testes e relatórios de defeitos.</li>
-    <li><b>Conclusão do teste:</b> Relatório de Conclusão, itens de melhoria do projeto ou iterações subsequentes, lições aprendidas, solicitações de alteração.</li>
+    <li><b>Conclusão do teste:</b> Relatório de Conclusão, itens de melhoria do projeto ou iterações, lições aprendidas, solicitações de alteração.</li>
 </ul>
