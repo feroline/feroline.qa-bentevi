@@ -9,7 +9,7 @@ title: Erros, Defeitos, Falhas e Causas-raiz
 
 <p><b>Erro:</b> É qualquer equívoco produzido pelo ser humano, pode haver vários motivos como pressão de tempo, falta de treinamento, cansaço, processos mal estruturados, etc. Caso não detectado, pode produzir um Defeito.</p>
 
-<p><b>Defeito:</b> É produzido por um erro, e encontrado em produtos de trabalho como script de teste, documentação, especificação de requisitos, código-fonte, etc. Caso não detectado e quando executado, pode produzir uma falha.</b></p>
+<p><b>Defeito:</b> É produzido por um erro, é uma anomalia encontrada em produtos de trabalho como script de teste, documentação, especificação de requisitos, código-fonte, etc. Caso não detectado e quando executado, pode produzir uma falha.</b></p>
 
 <p><b>Falha:</b> É produzida por um defeito ou condições ambientais, é quando o sistema deixa de fazer o que deveria ou faz algo que não deveria.</p>
 

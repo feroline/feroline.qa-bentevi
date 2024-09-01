@@ -21,14 +21,14 @@ title: Atividades e Tarefas de Teste
         <b>Monitoramento e Controle de Teste:</b>
         <ul>
             <li>Verificação contínua.</li>
-            <li>Comparação do progresso.</li>
-            <li>Tomada de ações necessárias.</li>
+            <li>Comparação do progresso real com o esperado.</li>
+            <li>Tomada de ações necessárias para seguir o plano.</li>
         </ul>
     </li>
     <li>
         <b>Análise de Teste:</b>
         <ul>
-            <li>Responde a pergunta "O que testar ?"</li>
+            <li>Responder a pergunta "O que testar ?"</li>
             <li>Identificar os recursos testáveis.</li>
             <li>Priorizar as condições de teste, riscos e níveis de risco.</li>
             <li>Identificar defeitos na base de teste e avaliar a testabilidade.</li>
@@ -37,10 +37,10 @@ title: Atividades e Tarefas de Teste
     <li>
         <b>Modelagem de Teste:</b>
         <ul>
-            <li>Responde a pergunta "Como testar ?"</li>
+            <li>Responder a pergunta "Como testar ?"</li>
             <li>Elaborar Casos de Teste, cartas de teste, etc.</li>
             <li>Identificar itens de cobertura.</li>
-            <li>Identifica ferramentas e infraestrutura necessárias para os testes.</li>    
+            <li>Identificar ferramentas e infraestrutura necessárias para os testes.</li>    
         </ul>
     </li>
     <li>
@@ -58,7 +58,7 @@ title: Atividades e Tarefas de Teste
         <ul>
             <li>Executar os testes.</li>
             <li>Registrar resultados.</li>
-            <li>Análisar anomalias.</li>
+            <li>Analisar anomalias.</li>
         </ul>
     </li>
     <li>

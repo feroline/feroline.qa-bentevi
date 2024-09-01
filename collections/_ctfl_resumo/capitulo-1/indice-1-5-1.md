@@ -18,4 +18,4 @@ title: Habilidades genéricas necessárias para testes
     <li><b>Conhecimento do negócio/domínio:</b> Para se comunicar com o stakeholders/usuários finais/representantes de forma adequada. </li>
 </ul>
 
-<p>A habilidade de comunicação é muito importante para nós testadores, pois geral somos os portadores das más notícias, e estas notícias podem ser recebidas como crítica ao trabalho do autor. As atividades de teste também podem ser consideradas destrutivas, embora contribuam muito para o sucesso e a qualidadde do projeto, sendo assim os defeitos e falhas devem ser comunicados de forma construtiva. </p>
+<p>A habilidade de comunicação é muito importante para nós testadores, pois geralmente somos os portadores das más notícias, e estas notícias podem ser recebidas como crítica ao trabalho do autor. As atividades de teste também podem ser consideradas destrutivas, embora contribuam muito para o sucesso e a qualidade do projeto, sendo assim os defeitos e falhas devem ser comunicados de forma construtiva. </p>

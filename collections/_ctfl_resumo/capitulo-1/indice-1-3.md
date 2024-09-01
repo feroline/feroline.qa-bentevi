@@ -56,7 +56,7 @@ title: Princípios de Teste
         <b>Falácia da ausência de defeitos:</b>
         <ul>
             <li>Um sistema livre de defeitos, aonde a verificação é contínua, não garante que ele seja um sucesso.</li>
-            <li>A validação também deve ser realizada para que os objetivos de negócios e expectativas do usuário e stakeholders sejam atendidas.</li>
+            <li>A validação também deve ser realizada para que os objetivos de negócio e expectativas do usuário e stakeholders sejam atendidas.</li>
         </ul>
     </li>
 </ol>

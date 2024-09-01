@@ -16,7 +16,7 @@ title: Processos de Teste no Contexto
     <li>Fatores técnicos.</li>
     <li>Restrições do projeto.</li>
     <li>Fatores organizacionais.</li>
-    <li>Ciclo de vida de desenvolvimento de software.</li>
+    <li>Ciclo de vida de desenvolvimento do software.</li>
     <li>Ferramentas.</li>
 </ul>
 
