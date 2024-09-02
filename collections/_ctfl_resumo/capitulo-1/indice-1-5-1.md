@@ -3,7 +3,6 @@ capitulo: 1
 indice: 1.5.1
 order: 17
 subcapitulo: true
-subindice: true
 title: Habilidades genéricas necessárias para testes
 ---
 

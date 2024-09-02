@@ -3,7 +3,6 @@ capitulo: 1
 indice: 1.4.4
 order: 14
 subcapitulo: true
-subindice: true
 title: Rastreabilidade entre a Base de Teste e o Testware
 ---
 

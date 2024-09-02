@@ -3,8 +3,7 @@ capitulo: 1
 indice: 1
 order: 1
 subcapitulo: false
-subindice: false
-title: Fundamentos do Teste - Palavras Chave
+title: Palavras Chave
 ---
 
 <!-- TODO: Adicionar plugin do github pages que tem indices organizados automaticamente, retirando o order das variaveis -->

@@ -3,7 +3,6 @@ capitulo: 1
 indice: 1.5.2
 order: 18
 subcapitulo: true
-subindice: true
 title: Abordagem de equipe completa
 ---
 

@@ -2,8 +2,7 @@
 capitulo: 1
 indice: 1.3
 order: 9
-subcapitulo: true
-subindice: false
+subcapitulo: false
 title: Princípios de Teste
 ---
 

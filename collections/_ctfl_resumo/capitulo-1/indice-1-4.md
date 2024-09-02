@@ -2,8 +2,7 @@
 capitulo: 1
 indice: 1.4
 order: 10
-subcapitulo: true
-subindice: false
+subcapitulo: false
 title: Atividades de teste, Testware e Papéis no teste.
 ---
 

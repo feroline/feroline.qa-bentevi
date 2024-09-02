@@ -3,7 +3,6 @@ capitulo: 1
 indice: 1.5.3
 order: 19
 subcapitulo: true
-subindice: true
 title: Independência dos testes
 ---
 

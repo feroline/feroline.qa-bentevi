@@ -2,8 +2,7 @@
 capitulo: 1
 indice: 1.2
 order: 5
-subcapitulo: true
-subindice: false
+subcapitulo: false
 title: Por que os testes são necessários ?
 ---
 

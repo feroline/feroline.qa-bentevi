@@ -2,8 +2,7 @@
 capitulo: 1
 indice: 1.5
 order: 16
-subcapitulo: true
-subindice: false
+subcapitulo: false
 title: Habilidades essenciais e boas práticas em testes.
 ---
 
