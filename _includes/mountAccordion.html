@@ -9,7 +9,8 @@
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#{{item.indice}}" aria-expanded="false" aria-controls="flush-collapseOne">
-                <b> {%if include.item.order != 1 %} {{include.item.indice}} - {% endif %} {{include.item.title}}</b>
+                <!-- <b> {%if include.item.order != 1 %} {{include.item.indice}} - {% endif %} {{include.item.title}}</b> -->
+                <b>{{include.item.indice}} - {{include.item.title}}</b>
             </button>
         </h2>
         <div id="{{include.item.indice}}" class="accordion-collapse collapse">

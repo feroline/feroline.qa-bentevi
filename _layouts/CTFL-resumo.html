@@ -3,17 +3,31 @@ layout: default
 
 ---
 <!-- TODO: INCREMENTAR MAIS ESSE TÍTULO -->
-<h1> {{ page.indice }} - {{ page.title }}</h1>
-<p>{{ page.date | date: "%d/%m/%y" }} - {{ page.author }}</p>
-<p> Resumo do Syllabus 4.0 para Certified Tester Foundation Level - CTFL </p>
+<div class="container">
 
-<p>
-    É muito importante que você veja o significado linkado nas palavras-chave descritas, pois serão utilizadas durante
-    todo o syllabus.
-    <br>
-    Você poderá revisar este conteúdo com base nos flashcards que criei no <a
-        href="https://www.brainscape.com/p/61TQ1-LH-D8PF9">Brainscape</a>.
-</p>
+    <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+    <h4 class="fw-light">{{page.subtitle}} </h4>
+    <p class="fw-light">{{ page.date | date: "%d/%m/%y" }} - <span class="fst-italic"> {{ page.author }} </span> </p>
+
+    <p>
+        Este conteúdo é um resumo do capítulo {{page.capitulo}} do syllabus 4.0 para
+        <a href="https://www.istqb.org/certifications/certified-tester-foundation-level">
+            Certified Tester Foundation Level - CTFL
+        </a>, presente no quadro do <a href="https://www.istqb.org/">ISTQB</a>. Este resumo é baseado na versão
+        brasileira fornecida pelo
+        <a href="https://bstqb.online/">BSTQB</a>.
+        É muito importante que você veja o significado linkado nas palavras-chave descritas, pois serão utilizadas
+        durante
+        todo o syllabus.
+        <br>
+        Você poderá revisar este conteúdo com base nos <b>flashcards</b> que criei no <a
+            href="https://www.brainscape.com/p/61TQ1-LH-D8PF9">Brainscape</a>.
+        <br>
+        Quaisquer erros ou incoerências que encontrar aqui, por favor entre em contato comigo pelo e-mail do rodapé.
+        Bons estudos ;) .
+    </p>
 
 
-{{content}}
+    {{content}}
+
+</div>
