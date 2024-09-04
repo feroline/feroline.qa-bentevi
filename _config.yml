@@ -2,4 +2,18 @@ baseurl: /feroline.qa-bentevi
 timezone: America/Araguaina
 collections_dir: collections
 collections:
+ posts:
+  output: true
+  permalink: /:categories/:slug
  ctfl_resumo:
+  output: false
+
+defaults:
+ - scope:
+    path: '_posts/resumo-ctfl'
+    type: 'posts'
+   values:
+    layout: 'CTFL-resumo'
+    subtitle: 'Resumo CTFL 4.0'
+    author: 'Ana Carolina Rodrigues Rocha'
+    category: 'resumo-ctfl'
