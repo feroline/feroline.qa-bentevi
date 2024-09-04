@@ -18,5 +18,5 @@ title: Erros, Defeitos, Falhas e Causas-raiz
 
 <div class="text-center">
 <!-- TODO: Verificar porque o liquid não funciona dentro do md, nem mesmo com markdownify . Então corrigir o link da imagem passando realive_url-->
-    <img class="img-fluid" src="feroline.qa-bentevi/assets/images/causa-raiz_erro_defeito_falha.png">
+    <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/causa-raiz_erro_defeito_falha.png">
 </div>
