@@ -13,5 +13,5 @@ title: Atividades do processo de revisão
   <li><b>Início da revisão:</b> Garante que todos os envolvidos tenham acesso ao produto de trabalho, estando preparados para revisão. </li>
   <li><b>Revisão individual:</b> Cada revisor realiza uma revisão individual, utilizando ou não técnicas e registrando as anomalias, recomendações e perguntas encontradas.</li>
   <li><b>Comunicação e análise de Problemas:</b> Nem toda anomalia é um defeito, então elas precisam ser análisadas e discutidas, onde uma tomada de decisão será feita para elas. Aqui também pode ser definido o nível da qualidade do produto e quais ações de acompanhento são necessárias.</li>
-  <li><b>Correção e relatório:</b> Cada defeito tem um relatório e ações corretivas. Ao critério de saída ser atingido o produto de trabalho é aceito e os resultadods das revisões são relatados.</li>
+  <li><b>Correção e relatório:</b> Cada defeito tem um relatório e ações corretivas. Quando o critério de saída é atingido, o produto de trabalho é aceito e os resultadods das revisões são relatados.</li>
 </ul>

@@ -7,7 +7,7 @@ title: Diferenças entre testes estáticos e testes dinâmicos
 ---
 
 <p>
-    Os testes dinâmicos e estáticos se complementam e visam detectar defeitos em produtos de trabalho e avaliar a qualidade. Mas suas difenças são:
+    Os testes dinâmicos e estáticos se complementam e visam detectar defeitos e avaliar a qualidade em produtos de trabalho. Mas suas difenças são:
 </p>
 
 <b>Testes Estáticos:</b>

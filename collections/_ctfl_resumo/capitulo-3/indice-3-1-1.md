@@ -11,5 +11,5 @@ Os produtos de trabalho que são difícieis de serem interpretados por seres hum
 </p>
 
 <p>
-Qualquer produto de trabalho que possa ser lido e compreendido pode ser objeto de uma <b>revisão</b> (exames manuais) ou <b>análise estática</b> (exames com uso de ferramentas), na análise os produtos de trabalho precisam de uma estrutura modelo.
+Qualquer produto de trabalho que possa ser lido e compreendido pode ser objeto de uma <b>revisão</b> ou <b>análise estática</b>, na análise os produtos de trabalho precisam de uma estrutura modelo.
 </p>
