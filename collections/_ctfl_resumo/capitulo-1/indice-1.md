@@ -53,7 +53,10 @@ title: Fundamentos do Teste - Palavras Chave
     <span class="badge rounded-pill bg-dark">Dados de teste</span>
   </a>
   <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/plano-de-teste">
-    <span class="badge rounded-pill bg-dark">Projeto de teste/Plano de teste</span>
+    <span class="badge rounded-pill bg-dark">Plano de teste</span>
+  </a>
+  <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/modelagem-de-teste">
+    <span class="badge rounded-pill bg-dark">Projeto de teste/Modelagem de teste</span>
   </a>
   <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/execucao-de-teste">
     <span class="badge rounded-pill bg-dark">Execução de teste</span>
