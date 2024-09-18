@@ -35,7 +35,7 @@ title: Desenvolvimento Orientado por Teste de Aceite (ATDD)
 </p>
 
 <ul>
-    <li>A linguagem utilizada normalmente é natural, para compreesão dos stakeholders.</li>
+    <li>A linguagem utilizada normalmente é natural, para melhor compreensão dos stakeholders.</li>
     <li>Abrange todas as características das histórias de usuários, não indo além delas, mas podendo expor seus problemas.</li>
     <li>Dois casos de teste não devem descrever as mesmas características.</li>
     <li>Na automação os desenvolvedores escrevem o código de suporte a medida que implementam o recurso, tornando os testes requisitos executáveis.</li>

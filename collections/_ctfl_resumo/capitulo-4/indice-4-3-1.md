@@ -8,11 +8,11 @@ title: Teste de Instrução e Cobertura de Instrução
 
 <p>
     O objetivo é criar casos de teste que executem as instruções do código até um nível aceitável de cobertura.
-    Uma instrução isolada em um caso de teste pode não detectar alguns defeitos associados que dependam de dados específicos, por exemplo, um defeito somente é detectado com o valor de entrada '1', mas o caso de teste referente a essa instrução tem como valor de entrada 2.  
+    Uma instrução isolada em um caso de teste pode não detectar alguns defeitos associados que dependam de dados específicos, por exemplo  um defeito que somente é detectado com o valor de entrada '1', mas o caso de teste referente a essa instrução tem como valor de entrada '2'.  
 </p>
 
 <p>
-    100% de cobertura de Instrução significa que todas as intruções do código foram executadas ao menos uma vez, mas não garante que toda a lógica de decisão tenha sido testada.
+    100% de cobertura de Instrução significa que todas as intruções do código foram executadas ao menos uma vez, mas não garante que toda a lógica de decisão tenha sido testada. Exemplo: Uma instrução (função) tem uma condição (decisão) representada por um 'if' e um 'else', ao executar essa instrução pode ser que o 'if' seja executado, entretanto o 'else' não, sendo assim nem toda decisão dentro da instrução será coberta.  
 </p>
 
 <p>

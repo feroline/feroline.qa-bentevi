@@ -14,7 +14,7 @@ title: Testes Exploratórios
     <li>Um período de tempo definido</li>
     <li>Uma carta de teste que contém os objetivos do teste</li>
     <li>Uma reunião depois da sessão onde é discutido os resultados do teste</li>
-    <li>Os itens de cobertuiria são identificados durante a sessão de teste</li>
+    <li>Os itens de cobertura são identificados durante a sessão de teste</li>
 </ul>
 
-<p>São muito úteis quando há pouca especificação ou quando ela é inadequada, ou quando há uma significativa pressão de tempo. Complementa técnicas mais formais, como a de particionamento de equivalência. É mais eficaz com um testador experiênte, com domínio e habilidades anlíticas, curiosidade e criatividade.</p>
+<p>São muito úteis quando há pouca especificação ou quando ela é inadequada, ou quando há uma significativa pressão de tempo. Complementa técnicas mais formais, como a de particionamento de equivalência. É mais eficaz com um testador experiente, com domínio e habilidades analíticas, curiosidade e criatividade.</p>

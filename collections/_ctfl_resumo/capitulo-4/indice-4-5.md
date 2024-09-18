@@ -11,5 +11,5 @@ title: Abordagens de Teste Baseadas na Colaboração
 <ul>
     <li><b>Escrita colaborativa de histórias de usuário</b></li>
     <li><b>Critérios de Aceite</b></li>
-    <li><b>Desenvolvimento Orientado opr Teste de Aceite</b></li>
+    <li><b>Desenvolvimento Orientado por Teste de Aceite</b></li>
 </ul>

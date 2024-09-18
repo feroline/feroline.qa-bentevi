@@ -23,6 +23,7 @@
 </head>
 
 <body>
+	{% include contatos.html %}
 	<div class="conteudo">
 		{% include navbar.html %}
 
@@ -31,9 +32,9 @@
 				{{content}}
 			</div>
 		</main>
-
-		{% include rodape.html %}
 	</div>
+	{% include rodape.html %}
+
 
 	<script src="{{'/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 	<script src="{{'/assets/js/custom.js' | relative_url}}"></script>

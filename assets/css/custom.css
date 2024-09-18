@@ -1,16 +1,36 @@
 :root {
 	--rodape-height: 6em;
+	--yellow: #fdd501;
 }
 
 #navbar-top {
 	transition: top 0.3s;
 }
 
-#rodape {
+#rodape-redes {
 	height: fit-content;
 	margin: var(--rodape-height) 0.5em 0.5em 0.5em;
 }
 
 .conteudo {
-	margin-bottom: calc(var(--rodape-height) + 2em);
+	margin-bottom: 3%;
+}
+
+.contatos {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 3%;
+	top: 10em;
+}
+
+.contatos-item {
+	z-index: 0;
+	background-color: var(--yellow);
+	margin-bottom: 15%;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	text-align: center;
 }

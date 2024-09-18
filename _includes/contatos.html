@@ -1,0 +1,7 @@
+<div class="contatos ">
+    {% for contato in site.data.contatos reversed %}
+    <a href="{{contato.link}}" class="text-decoration-none text-muted contatos-item">
+        {% include {{ contato.svgPath }} %}
+    </a>
+    {% endfor %}
+</div>

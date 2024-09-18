@@ -7,7 +7,7 @@ title: Tabela de Decisão
 ---
 
 <p>
-    É uma forma eficaz de registrar regras complexas como as Regras de Negócios. Nesta tabela são definidas condições e ações resultantes do sistema. Uma tabela completa cobre todas as combinações de condições, mas pode ser simplificada excluindo, fundindo condições inviáveis ou que não afetam o resultado.
+    É uma forma eficaz de registrar regras complexas como as Regras de Negócios. Nesta tabela são definidas condições e ações resultantes do sistema. Uma tabela completa cobre todas as combinações de condições, mas pode ser simplificada excluindo ou fundindo condições inviáveis ou que não afetam o resultado.
 </p>
 
 <table class="table table-sm table-bordered">

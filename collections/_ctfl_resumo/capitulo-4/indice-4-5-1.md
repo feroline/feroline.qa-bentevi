@@ -17,7 +17,7 @@ title: Escrita colaborativa de histórias de Usuário
 </p>
 
 <p>
-    O formato mais comum é: 
+    O formato mais comum de escrita é: 
     <br>
     <b>Como</b> [ator ou persona] <b>eu quero</b> [meta a ser cumprida] <b>para que eu possa</b> [valor de negócio resultante da função]
 </p>

@@ -13,12 +13,12 @@ title: Análise de Valor Limite (BVA)
 <p>
     <span><b>BVA de 2 valores:</b></span>
     <ul>
-        <li>Para cada valor limite há dois itens de cobertura,  o valor limite e seu vizinho mais próximo pertencente a partição Adjacente (vizinha).</li>
+        <li>Para cada valor limite há dois itens de cobertura, sendo o valor limite e seu vizinho mais próximo pertencente a partição seguinte (vizinha).</li>
         <li>Para atingir 100% de cobertura todos os valores limites identificados devem ser executados.</li>
     </ul> 
 </p>
 
-<p>A cobertura é medida da seguinte forma e expressa em porcentagem, representada pela letra 'C': Número de Valores limites executados, dividido pelo número total de valor limite identificado, resultado representado pela letra 'Y'. </p>
+<p>A cobertura é medida da seguinte forma e expressa em porcentagem (C): Número de Valores limites executados, dividido pelo número total de valor limite identificado (Y). </p>
 
 <p>
     <div class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-center">
@@ -57,12 +57,12 @@ title: Análise de Valor Limite (BVA)
 <p>
     <span><b>BVA de 3 valores:</b></span>
     <ul>
-        <li>Para cada valor limite há três itens de cobertura, o valor limite e seus dois vizinhos.</li>
+        <li>Para cada valor limite há três itens de cobertura, sendo o valor limite, seu vizinho da partição seguinte e seu vizinho da mesma partição.</li>
         <li>Para atingir 100% de cobertura todos os valores limites e seus vizinhos devem ser executados.</li>
     </ul> 
 </p>
 
-<p>A cobertura é medida da seguinte forma e expressa em porcentagem, representada pela letra 'C': Número de Valores limites executados mais seus vizinhos, dividido pelo número total de valor limite identificado mais seus vizinhos, resultado representado pela letra 'Y'. </p>
+<p>A cobertura é medida da seguinte forma e expressa em porcentagem (C): Número de Valores limites executados mais seus vizinhos, dividido pelo número total de valor limite identificado mais seus vizinhos (Y) </p>
 
 <p>
  <div class="row justify-content-center">

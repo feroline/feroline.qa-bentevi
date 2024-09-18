@@ -54,13 +54,13 @@ title: Teste de Transição de Estado
             <tbody>
                 <tr class="flex-row">
                 <th scope="row">Estado 1</th>
-                <td>Resultado 1.1</td>
-                <td>Resultado 1.2</td>
+                <td>Transição 1.1</td>
+                <td>Transição 1.2</td>
                 </tr>
                 <tr>
                 <th scope="row">Estado 2</th>
-                <td>Resultado 2.1</td>
-                <td>Resultado 2.2</td>
+                <td>Transição 2.1</td>
+                <td>Transição 2.2</td>
                 </tr>
             </tbody>
         </table>
@@ -191,7 +191,7 @@ title: Teste de Transição de Estado
         </li>
         <li>
             <span>
-                <b>Cobertura de todas as transições:</b> Os itens de cobertura são todas as transições (válidas e inválidas), mostradas em uma tabela de estado. Para garantir 100% da cobertura, todas as transições devem ser executadas.A fórmula é:
+                <b>Cobertura de todas as transições:</b> Os itens de cobertura são todas as transições (válidas e inválidas), mostradas em uma tabela de estado. Para garantir 100% da cobertura, todas as transições devem ser executadas. A fórmula é:
             </span>
             <br>
             <br>
@@ -231,6 +231,6 @@ title: Teste de Transição de Estado
     
     <br>
     <span>
-        A cobertura mais abrangente é a cobertura de todos as transições, logo em seguida a de transições válidas, após ela a de todos os estados. Isso se deve ao fato de que alguns estados podem ser alcançados sem necessariamente executar todas as transições, e ao executar todas as transições, tanto válidas quanto as inválidas, posso evitar o mascaramento de falhas.
+        A cobertura mais abrangente é a cobertura de todos as transições, logo em seguida a de transições válidas, após ela a de todos os estados. Isso se deve ao fato de que alguns estados podem ser alcançados sem necessariamente executar todas as transições, e ao executar todas as transições, tanto válidas quanto as inválidas, posso evitar o mascaramento de falhas e visitar todos os estados.
     </span>
 </p>

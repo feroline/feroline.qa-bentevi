@@ -30,7 +30,7 @@ title: Visão Geral das Técnicas de Teste
 <div>
     <span><b>Técnicas de Teste Baseada na Experiência:</b></span>
     <ul>
-        <li>Baseadas no conhecimento e experiência do Testador, dependendo de suas habilidades.</li>
+        <li>Baseada no conhecimento e experiência do testador, dependendo de suas habilidades.</li>
         <li>São complementares as técnicas caixa-branca e caixa-preta, visto que podem detectar defeitos que poderiam passar despercebidos por estas.</li>
     </ul>
 </div>
