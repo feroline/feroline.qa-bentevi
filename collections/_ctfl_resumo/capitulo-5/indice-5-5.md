@@ -7,10 +7,10 @@ title: Gerenciamento de Defeitos
 ---
 
 <p>
-   Aqui nesta seção 'Defeitos' se refere a qualquer anomalia registrada, podendo se tornar defeito ou não. O processo de Gerenciamento de Defeitos lida com as anomalias registradas de forma individual desde sua descoberta até seu fechamento, utilizando regras para sua classificação. É aconselhável lidar com os defeitos de testes estáticos e dinâmicos de forma semelhante. 
+   Aqui nesta seção 'Defeitos' se refere a qualquer <b>anomalia</b> registrada, podendo se tornar defeito ou não. O processo de Gerenciamento de Defeitos lida com as anomalias registradas de forma individual desde sua descoberta até seu fechamento, utilizando regras para sua classificação. É aconselhável lidar com os defeitos de testes estáticos e dinâmicos de forma semelhante. 
 </p>
 
-Objetivos do relatório de defeitos:
+<b>Objetivos</b> do relatório de defeitos:
 
 <ul>
     <li>Fornecer informações suficientes para resolver os problemas</li>
@@ -18,7 +18,7 @@ Objetivos do relatório de defeitos:
     <li>Fornecer ideias para aprimorar os processos</li>
 </ul>
 
-Características de um relatório de defeitos:
+<b>Características</b> de um relatório de defeitos:
 
 <ul>
     <li>Identificador Exclusivo</li>
@@ -32,7 +32,7 @@ Características de um relatório de defeitos:
     <li>Prioridade de correção</li>
     <li>Status do defeito (ex.: aberto, duplicado, adiado, rejeitado, fechado, etc)</li>
     <li>Referências (ex.: TC, UC, US)</li>
-</ul>s
+</ul>
 
 <p>
     Algumas ferramentas podem incluir alguns desses dados das características automaticamente.
