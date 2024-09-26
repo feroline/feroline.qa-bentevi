@@ -3,7 +3,7 @@ capitulo: 5
 indice: 5
 order: 1
 subcapitulo: false
-title: Gerenciamento das Atividades de Teste - Palavras Chave
+title: Gerenciamento das Atividades de Teste - Palavras-chave
 ---
 
 <!-- TODO COLOCAR EM TODOS OS LINKS PARA ABRIR EM UMA NOVA ABA -->

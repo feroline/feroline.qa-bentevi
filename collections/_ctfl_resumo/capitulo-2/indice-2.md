@@ -3,7 +3,7 @@ capitulo: 2
 indice: 2
 order: 1
 subcapitulo: false
-title: Testes ao longo do Ciclo de Vida de Desenvolvimento de Software - Palavras Chave
+title: Testes ao longo do Ciclo de Vida de Desenvolvimento de Software - Palavras-chave
 ---
 
 <div class="d-inline">

@@ -3,10 +3,8 @@ capitulo: 6
 indice: 6
 order: 1
 subcapitulo: false
-title: Ferramentas de Teste - Palavras Chave
+title: Ferramentas de Teste - Palavras-chaves
 ---
-
-<!-- TODO Corrigir Palavras Chave para Palavras-chave em todos os capítulos -->
 
 <div class="d-inline">
     <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/automacao-de-testes">

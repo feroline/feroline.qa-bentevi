@@ -3,7 +3,7 @@ capitulo: 1
 indice: 1
 order: 1
 subcapitulo: false
-title: Fundamentos do Teste - Palavras Chave
+title: Fundamentos do Teste - Palavras-chave
 ---
 
 <div class="d-inline">

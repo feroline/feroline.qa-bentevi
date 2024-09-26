@@ -3,7 +3,7 @@ capitulo: 3
 indice: 3
 order: 1
 subcapitulo: false
-title: Teste Estático - Palavras Chave
+title: Teste Estático - Palavras-chave
 ---
 
 <div class="d-inline">
