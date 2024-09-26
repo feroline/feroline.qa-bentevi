@@ -7,7 +7,7 @@ title: Ferramentas de Teste - Palavras-chaves
 ---
 
 <div class="d-inline">
-    <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/automacao-de-testes">
+    <a class="text-decoration-none" target="_blank" href="https://glossary.istqb.org/pt_BR/term/automacao-de-testes">
         <span class="badge rounded-pill bg-dark">Automação de Testes</span>
     </a>
 </div>
