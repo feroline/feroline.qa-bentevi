@@ -7,7 +7,7 @@ title: Riscos do Projeto e Riscos do Produto
 ---
 
 <p> 
-    <b>Riscos do Projeto:</b> Estão relacionados ao gerenciamento e ao controle do projeto. Quando ocorrem tem impacto no cronograma, orçamento ou escopo do projeto, impedindo o projeto de atingit seus objetivos, os problemas incluem: 
+    <b>Riscos do Projeto:</b> Estão relacionados ao gerenciamento e ao controle do projeto. Quando ocorrem tem impacto no cronograma, orçamento ou escopo do projeto, impedindo que ele atinja seus objetivos, os problemas incluem: 
     <ul>
         <li>Problemas organizacionais</li>
         <li>Problemas de pessoal</li>

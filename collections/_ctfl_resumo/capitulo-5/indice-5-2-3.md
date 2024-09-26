@@ -29,7 +29,7 @@ title: Análise de Risco do Produto
         <li>Determinar os níveis e tipos de teste a serem realizados</li>
         <li>Determinar as técnicas utilizadas e a cobertura a ser alcançada</li>
         <li>Estimar o esforço de teste das tarefas</li>
-        <li>Priorizar os testes para encontrar defeitos critíticos o mais cedo</li>
+        <li>Priorização dos teste. </li>
         <li>Determinar se atividades além dos testes devem ser aplicadas para reduzir o risco</li>
     </ul>
 </p>

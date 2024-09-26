@@ -11,11 +11,8 @@ title: Quadrantes de Teste
 </p>
 
 <p>
-  Há dois pontos de vista que determinam os quadro quadrantes, são eles: 
-  <br>
-  Voltado para os <b>negócios</b>, orientando o desenvolvimento.
-  <br>
-  Ou voltado para <b>tecnologia</b>, medindo o comportamento em relação as expectativas. 
+  Podem ser voltado para os <b>negócios</b> ou <b>tecnologia</b>, orientando o desenvolvimento, e 
+  voltado para o <b>produto</b> ou <b>equipe</b>, medindo o comportamento em relação as expectativas. 
 </p>
 
 <div class="text-center">
@@ -32,7 +29,7 @@ title: Quadrantes de Teste
 </p>
 
 <p>
- <b>Quadrante 3:</b> Voltado para os Negócios, apoia o produto. Testes exploratórios, testes de usabilidade e testes de aceite do usuário. São orientados para os usuários e geralmente manuais.
+ <b>Quadrante 3:</b> Voltado para os Negócios, avalia o produto. Testes exploratórios, testes de usabilidade e testes de aceite do usuário. São orientados para os usuários e geralmente manuais.
 </p>
 
 <p>

@@ -7,7 +7,7 @@ title: Controle de Risco do Produto
 ---
 
 <p> 
-   <b>Consiste na mitigação e monitoramento de riscos.</b> São as medidas tomadas em resposta aos riscos identificados e avaliados do produto, ou seja, é a mitigação e o monitoramento dos riscos.
+   <b>Consiste na mitigação e monitoramento de riscos.</b> Ou seja, são as medidas tomadas em resposta aos riscos identificados e avaliados do produto.
 </p>
 
 <p>

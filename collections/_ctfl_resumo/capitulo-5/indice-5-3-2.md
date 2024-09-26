@@ -7,11 +7,11 @@ title: 'Relatórios de Teste: Objetivo, conteúdo e público-alvo'
 ---
 
 <p>
-    Os relatórios de teste têm o objetivo de resumir e comunicar as informações do teste durante e após os testes. Existem os relatórios de progresso e os de conclusão. Sua formalidade e frequencia dependem do seu público-alvo. 
+    Os relatórios de teste têm o objetivo de resumir e comunicar as informações do teste durante e após os testes. Existem os relatórios de progresso e os de conclusão. Sua formalidade e frequência dependem do seu público-alvo. 
 </p>
 
 <p>
-    Os <b>relatórios de progresso do teste</b> são realizados durante o monitoramento e controle do teste, dando suporte ao controle do teste e fornecem informações suficientes para modificar o cronograma, recurso ou o plano de teste quando necessário, além de manter os stakeholders informados. Podem incluir: 
+    Os <b>relatórios de progresso do teste</b> são realizados durante o monitoramento e controle do teste, dando suporte ao controle do teste e fornecendo informações suficientes para modificar o cronograma, recurso ou o plano de teste quando necessário, além de manter os stakeholders informados. Podem incluir: 
 </p>
 
 <ul>

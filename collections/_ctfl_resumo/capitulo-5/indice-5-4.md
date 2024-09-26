@@ -16,5 +16,5 @@ title: Gerenciamento de Configuração (CM)
 
 <ul>
     <li>A <b>rastreabilidade</b> é mantida durante todo o processo de teste e em todos os itens de configuração por meio de identificadores únicos, sendo eles controlados por versões, com as alterações e outros itens rastreados e relacionados.</li>
-    <li>Os itens de documentação e software são <b>referenciados</b> na documentação de teste</li>
+    <li>Os itens de documentação e software são <b>referenciados</b> na documentação de teste.</li>
 </ul>

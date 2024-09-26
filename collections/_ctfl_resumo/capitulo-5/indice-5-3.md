@@ -11,7 +11,7 @@ title: Monitoramento, Controle e Conclusão do Teste
 </p>
 
 <p>
-    <b>Controle:</b> usa as informações do monitoramento para fornecer diretrizes de controle, como orientações e ações correticas para obter testes mais eficazes e eficientes.
+    <b>Controle:</b> usa as informações do monitoramento para fornecer diretrizes de controle, como orientações e ações corretivas para obter testes mais eficazes e eficientes.
 </p>
 
 Exemplos de diretrizes de controle:

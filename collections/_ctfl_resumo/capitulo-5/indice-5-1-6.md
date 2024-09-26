@@ -7,11 +7,11 @@ title: Pirâmide de Teste
 ---
 
 <p>
-  A Pirâmide de Teste é um modelo no qual mostra que os teste podem ter diferentes níveis de minuciosidade, apoia a equipe na automação de testes e na alocação de esforços, mostrando que diferentes objetivos são apoiados por diferentes níveis.
+  A Pirâmide de Teste é um modelo no qual mostra que os teste podem ter diferentes níveis de minuciosidade, apoiam a equipe na automação de testes e na alocação de esforços, mostrando que diferentes objetivos são apoiados por diferentes níveis.
 </p>
 
 <p>
-  <b>Camadas:</b> representa grupos de teste. Quanto mais alta a camada menor será a granulariadade (minuciosidade), o isolamento e o tempo de execução do teste.
+  <b>Camadas:</b> representam grupos de teste. Quanto mais alta a camada menor será a granulariadade (minuciosidade), o isolamento e o tempo de execução do teste.
 </p>
 
 <p>
@@ -36,5 +36,5 @@ title: Pirâmide de Teste
 </div>
 
 <p>
-  Imagine a pirâmide como uma montanha, quanto mais alto você subir na montanha maior será a cobertura de visão ao seu redor, entretanto a dificuldade vai se tornando cada vez maior a cada passo que dá para o pico de mais alto nível. Já no pé da montanha, a dificuldade e esfoço são menores, entretanto a cobertura de visão também é menor. 
+  Imagine a pirâmide como uma montanha, quanto mais alto você subir na montanha maior será a cobertura de visão ao seu redor, entretanto a dificuldade da subida se torna cada vez maior a cada passo que dá para o pico de mais alto nível. Já no pé da montanha, a dificuldade e esfoço são menores, entretanto a cobertura de visão também é menor. 
 </p>

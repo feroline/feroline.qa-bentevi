@@ -6,6 +6,7 @@ subcapitulo: false
 title: Gerenciamento das Atividades de Teste - Palavras Chave
 ---
 
+<!-- TODO COLOCAR EM TODOS OS LINKS PARA ABRIR EM UMA NOVA ABA -->
 <div class="d-inline">
     <a class="text-decoration-none" href="https://glossary.istqb.org/pt_BR/term/gerenciamento-de-defeitos">
         <span class="badge rounded-pill bg-dark">Gerenciamento de Defeitos</span>

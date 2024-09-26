@@ -20,6 +20,6 @@ Alguns exemplos de ferramentas de teste são:
     <li>Ferramentas de teste não funcional</li>
     <li>Ferramenta de DevOps</li>
     <li>Ferramentas de colaboração (comunicação)</li>
-    <li>Ferramentas que dão suporte a padronização e ecalabilidade e a padronização da implementação (ex.: conteinerização)</li>
+    <li>Ferramentas que dão suporte a padronização e escalabilidade da implementação (ex.: conteinerização)</li>
     <li>Qualquer outra ferramenta que auxilie no teste</li>
 </ul>

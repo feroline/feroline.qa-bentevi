@@ -7,10 +7,10 @@ title: Técnicas de estimativa
 ---
 
 <p>
-  É a previsão da quantidade de trabalho relacionada ao teste, é baseada em suposições e está sujeita a erros. Tarefas grandes devem ser decomposta em menores para poder ter uma estimativa mais precisa, entretanto são suposições sujeita a erros e todos os envolvidos devem estar cientes disso. Há 4 técnicas apresentadas aqui, são elas: 
+  Uma estimativa é a previsão da quantidade de trabalho relacionada ao teste, sendo baseada em suposições e sujeita a erros. Tarefas grandes devem ser decomposta em menores para poder ter uma estimativa mais precisa, entretanto são suposições sujeita a erros e todos os envolvidos devem estar cientes disso. Há 4 técnicas apresentadas aqui, são elas: 
 </p>
 
-<ol>
+<ul>
   <li><b>Estimativa baseada em índices: </b> Baseado em métricas. São usados Indicadores Padrão (números coletados de projetos anteriores) para estimar o esfoço do teste do novo projeto. </li>
   <li><b>Extrapolação:</b> Baseado em métricas. Medições são feitas o mais cedo possível no projeto para coleta de dados, e a estimativa é feita com base na extrapolação desses dados. Muito adequado para SDLC iterativo. </li>
   <li><b>Wideband Delphi:</b> Baseda em especialistas. São usadas as experiências dos especialistas para estimar o esforço, no qual chegam a um consenso em comum. O Planning Poker é uma variante, mais utilizada no desenvolvimento ágil.</li>
@@ -102,4 +102,4 @@ title: Técnicas de estimativa
     </div>
 
   </li>
-</ol>
+</ul>
