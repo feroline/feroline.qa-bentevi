@@ -10,6 +10,7 @@ title: Tabela de Decisão
     É uma forma eficaz de registrar regras complexas como as Regras de Negócios. Nesta tabela são definidas condições e ações resultantes do sistema. Uma tabela completa cobre todas as combinações de condições, mas pode ser simplificada excluindo ou fundindo condições inviáveis ou que não afetam o resultado.
 </p>
 
+<!-- FIXME: Corrigir TABELA usando exemplo da questão 22 do exame A -->
 <table class="table table-sm table-bordered">
   <thead>
     <tr>
@@ -83,6 +84,7 @@ title: Tabela de Decisão
     </table>
 </p>
 
+<!-- FIXME: Corrigir cálculo de porcentagem para a Tabela de Decisão -->
 <p>A cobertura é feita nas colunas que tem combinações viáveis. Para atingir 100%, todas as colunas devem ser executadas, sendo medida da seguinte forma: O Número total de colunas executadas é dividido pelo total de colunas viáveis, sendo o resultado representado pela letra 'Y', e então espresso na forma de porcentagem, representado pela letra 'C'.</p>
 
 <p>

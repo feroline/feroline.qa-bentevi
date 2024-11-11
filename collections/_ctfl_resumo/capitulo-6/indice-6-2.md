@@ -18,7 +18,7 @@ title: Benefícios e Riscos da Automação de Teste
     <li>Avaliação mais objetiva (ex.: cobertura) e facilitador de fornecimento de medidas muito complicadas.</li>
     <li>Acesso mais fácil as informações sobre os testes, dando suporte ao gerenciamento e relatórios.</li>
     <li>Redução dos tempos de execução de testes, proporcionando detecção antecipada de defeitos, feedback mais rápido e menor tempo de lançamento.</li>
-    <li>Mais tempo para os testadores criarem testes novos, profuntos e eficazes.</li>
+    <li>Mais tempo para os testadores criarem testes novos, profundos e eficazes.</li>
 </ul>
 
 <b>Riscos</b> da automação de testes:
@@ -29,7 +29,7 @@ title: Benefícios e Riscos da Automação de Teste
     <li>Usar ferramenta de teste quando o teste manual é o mais apropriado.</li>
     <li>Confiar demais somente na ferramenta.</li>
     <li>Dependência do fornecedor da ferramenta.</li>
-    <li>Usar código de software abertor que pode ser abandonado.</li>
+    <li>Usar código de software aberto que pode ser abandonado.</li>
     <li>Incompatibilidade da ferramenta de automação com o software em desenvolvimento.</li>
     <li>Escolher uma ferramenta que não cumpre requisitos normativos, regulamentares ou normas de segurança. </li>
 </ul>

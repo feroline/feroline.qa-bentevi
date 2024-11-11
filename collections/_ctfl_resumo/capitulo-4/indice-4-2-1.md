@@ -21,6 +21,7 @@ title: Particionamento de Equivalência (EP)
 
 <p>Each Choice Coverage (ECC): Cobertura de Cada Escolha, é um critério de cobertura simples, no qual exige que os casos de teste executem cada partição de cada conjunto de partições pelo menos uma vez. </p>
 
+<!-- FIXME: Corrigir cálculo de porcentagem para a EP -->
 <p>
     Os itens de <b>cobertura</b> são as partições de equivalência que foram identificadas.
     Para 100% de cobertura, os casos de teste devem executar todas as partições (válidas e inválidas), pelo menos 1 vez. O resultado é expresso em porcentagem, sendo a fórmula: O Número de Partições Executadas dividido pelo Número Total de Partições existentes, no qual o resultado representado pela letra 'Y', será convertido em porcentagem resultando na porcentagem de Cobertura alcançada pelo Particionamento de Equivalência, representado pela letra 'C'

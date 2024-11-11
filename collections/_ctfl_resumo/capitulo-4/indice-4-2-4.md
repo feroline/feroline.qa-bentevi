@@ -36,9 +36,10 @@ title: Teste de Transição de Estado
         </span>
         <!-- TODO Corrigir src -->
         <div class="text-center">
-            <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/diagrama-de-estado-explicacao.png">
+            <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/diagrama-de-transicao-de-estado-explicacao.png">
         </div>
     </li>
+    <!-- TODO CORRIGIR TABELA DE TRANSIÇÃO DE ESTADO -->
     <li>
         <span>
             <b>Tabela de Transição de Estado:</b> Baseada no Diagrama mostra as transições válidas e inválidas em forma de tabela. 
@@ -75,6 +76,7 @@ title: Teste de Transição de Estado
  </ul>
 </p>
 
+<!-- TODO: REVISAR CONTEÚDO -->
 <p>
     <span>
     <b>Exemplo:</b> Uma lâmpada que evolui entre os estados “acesa” e “apagada”, conforme se liga e desliga um interruptor. "N/A" ou "Não se Aplica", representa os estados inválidos.</span>
@@ -108,7 +110,7 @@ title: Teste de Transição de Estado
         </tbody>
     </table>
 </p>
-
+<!-- FIXME: Corrigir cálculo de porcentagem para as cobertura de Transição de Estado e deixar apenas um cálculo de exemplo simplificando o óbvio -->
 <p>
     A cobertura pode ser abordada de diferentes formas, aqui iremos falar de três, são elas:
     <ul>

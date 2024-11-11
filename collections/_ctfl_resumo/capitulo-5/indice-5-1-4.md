@@ -52,7 +52,7 @@ title: Técnicas de estimativa
                 <mn> ( </mn>
                 <mn> p </mn>
                 <mo> - </mo>
-                <mn> 0 </mn>
+                <mn> o </mn>
                 <mo> ) </mo>
             </mrow>
             <mn>6</mn>

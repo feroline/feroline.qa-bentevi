@@ -7,26 +7,27 @@ title: Análise de Valor Limite (BVA)
 ---
 
 <p>
-    É baseada na execução dos limites de valor das partições de equivalência. Os valores mínimo e máximo de uma partição são seus valores de limite, onde os desenvolvedores tem maior probabilidade de cometer erros. Existe a BVA de 2 valores e a BVA de 3 valores.
+    É baseada na execução dos valores de limites das partições de equivalência. <b> Os valores mínimo e máximo de uma partição são seus valores de limite</b>, onde os desenvolvedores tem maior probabilidade de cometer erros. Existe a BVA de 2 valores e a BVA de 3 valores.
 </p>
 
-<p>
-    <span><b>BVA de 2 valores:</b></span>
+<p> 
     <ul>
-        <li>Para cada valor limite há dois itens de cobertura, sendo o valor limite e seu vizinho mais próximo pertencente a partição seguinte (vizinha).</li>
-        <li>Para atingir 100% de cobertura todos os itens de cobertura devem ser executados.</li>
+        <li>
+            <span><b>BVA de 2 valores:</b></span>
+            Para cada valor limite há dois itens de cobertura, sendo o valor limite e seu vizinho mais próximo.
+        </li>
+        <br>
+        <li>
+            <span><b>BVA de 3 valores:</b></span>
+            Para cada valor limite há três itens de cobertura, sendo o valor limite, seu vizinho da partição seguinte e seu vizinho da mesma partição.
+        </li>
     </ul> 
+    <span>
+        Para atingir 100% de cobertura todos itens de cobertura (valor limite e seus vizinhos) devem ser executados.
+    </span>
 </p>
 
-<p>
-    <span><b>BVA de 3 valores:</b></span>
-    <ul>
-        <li>Para cada valor limite há três itens de cobertura, sendo o valor limite, seu vizinho da partição seguinte e seu vizinho da mesma partição.</li>
-        <li>Para atingir 100% de cobertura todos itens de cobertura devem ser executados.</li>
-    </ul> 
-</p>
-
-<p>A cobertura é medida da seguinte forma e expressa em porcentagem (C): Número de valores executados, dividido pelo número total de valores identificados (limites e seus vizinhos) </p>
+<p>A cobertura é medida da seguinte forma e expressa em porcentagem (C%): Número de valores de limite e vizinhos que foram executados, multiplicado por 100 e então o resultado é dividido pelo número total de valores de limite e seus vizinhos que foram identificados.</p>
 
 <p>
  <div class="row justify-content-center">
@@ -34,36 +35,19 @@ title: Análise de Valor Limite (BVA)
         <math>
             <mfrac>
                 <mrow>
-                    <mn> Nº Executados </mn>
-                </mrow>
-                <mn>Nº Total </mn>
-            </mfrac>
-            <mo> = </mo> 
-            <mn> Y </mn>
-        </math>
-    </div>
-    <div class="col-lg-1 col-sm-12 text-center">
-        &rarr;
-    </div>
-    <div class="col-lg-4 col-sm-12 text-center">
-        <math>
-            <mfrac>
-                <mrow>
-                    <mn> Y </mn>
-                    <mo> *</mo>
-                    <mn> 100 </mn> 
+                    <mn> Nº Executado * 100 </mn>
                 </mrow>
                 <mn>Nº Total </mn>
             </mfrac>
             <mo> = </mo> 
             <mn> C% </mn>
-         </math>
+        </math>
     </div>
   </div>
 </p>
 
 <p>
-    O exemplo a seguir mostra como o BVA de 3 valores tem uma cobertura maior que o BVA de 2 valores, pois abrange não apenas seu vizinho adjacente da próxima partição, mas também seu vizinho da mesma partição:
+    O exemplo a seguir mostra como o BVA de 3 valores tem uma cobertura maior do que o BVA de 2 valores, pois abrange o valor limite(3), o vizinho mais próximo (4), e o vizinho da mesma partição (2):
     <br>
     <div class="text-center">
         <!-- TODO corrigir /feroline.qa-bentevi/ para usar relative_url -->
