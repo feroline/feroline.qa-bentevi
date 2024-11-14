@@ -50,7 +50,7 @@ title: Análise de Valor Limite (BVA)
     O exemplo a seguir mostra como o BVA de 3 valores tem uma cobertura maior do que o BVA de 2 valores, pois abrange o valor limite(3), o vizinho mais próximo (4), e o vizinho da mesma partição (2):
     <br>
     <div class="text-center">
-        <!-- TODO corrigir /feroline.qa-bentevi/ para usar relative_url -->
+        <!-- FIXME corrigir /feroline.qa-bentevi/ para usar relative_url -->
         <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/bva.png">
     </div>
 </p>

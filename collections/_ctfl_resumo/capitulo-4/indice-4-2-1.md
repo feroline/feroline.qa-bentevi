@@ -14,17 +14,20 @@ title: Particionamento de Equivalência (EP)
     Qualquer elemento de dados pode ser particionado. Ex.: Entradas, saídas, itens de configuração, valores internos, relacionados ao tempo e parâmetros de interface.
 </p>
 
-<!-- TODO: Pesquisar o que seriam particições Contínuas ou discretas, ordenadas ou não ordernadas, finitas ou infinitas -->
+<!-- TODO Pesquisar o que seriam particições Contínuas ou discretas, ordenadas ou não ordernadas, finitas ou infinitas -->
 <p>
     Podem ser divididas em <b>Partições Válidas</b> e <b>Partições inválidas</b>. As partições válidas contém valores válidos que devem ser processados pelo objeto de teste. As partições inválidas contém valores inválidos que devem ser ignorados ou rejeitados pelo objeto de teste.
 </p>
 
 <p>Each Choice Coverage (ECC): Cobertura de Cada Escolha, é um critério de cobertura simples, no qual exige que os casos de teste executem cada partição de cada conjunto de partições pelo menos uma vez. </p>
 
-<!-- FIXME: Corrigir cálculo de porcentagem para a EP -->
 <p>
     Os itens de <b>cobertura</b> são as partições de equivalência que foram identificadas.
-    Para 100% de cobertura, os casos de teste devem executar todas as partições (válidas e inválidas), pelo menos 1 vez. O resultado é expresso em porcentagem, sendo a fórmula: O Número de Partições Executadas dividido pelo Número Total de Partições existentes, no qual o resultado representado pela letra 'Y', será convertido em porcentagem resultando na porcentagem de Cobertura alcançada pelo Particionamento de Equivalência, representado pela letra 'C'
+    Para 100% de cobertura, os casos de teste devem executar todas as partições (válidas e inválidas), pelo menos 1 vez. 
+    O resultado é expresso em porcentagem, sendo a fórmula: O Número de Partições Executadas multiplicado por 100 e dividido pelo
+     Número Total de Partições 
+    existentes, no qual o resultado será a porcentagem de 
+    Cobertura alcançada pelo Particionamento de Equivalência, representado pela letra 'C'
 </p>
 
 <p>
@@ -33,30 +36,13 @@ title: Particionamento de Equivalência (EP)
         <math>
             <mfrac>
                 <mrow>
-                    <mn> Nº Executadas </mn>
+                    <mn> Nº Executadas * 100 </mn>
                 </mrow>
                 <mn>Nº Total</mn>
             </mfrac>
             <mo> = </mo> 
-            <mn> Y </mn>
+            <mn> C% </mn>
         </math>
     </div>
-  <div class="p-1">
-        &rarr;
-  </div>
-  <div class="p-1">
-  <math >
-        <mfrac>
-            <mrow>
-                <mn> Y </mn>
-                <mo> *</mo>
-                <mn> 100 </mn> 
-            </mrow>
-            <mn>Nº Total</mn>
-        </mfrac>
-            <mo> = </mo> 
-            <mn> C% </mn>
-         </math>
-  </div>
 </div>
 </p>

@@ -31,7 +31,7 @@ title: Pirâmide de Teste
 </p>
 
 <div class="text-center">
-<!-- TODO: Verificar porque o liquid não funciona dentro do md, nem mesmo com markdownify . Então corrigir o link da imagem passando realive_url-->
+<!-- FIXME Verificar porque o liquid não funciona dentro do md, nem mesmo com markdownify . Então corrigir o link da imagem passando realive_url-->
     <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/piramide-de-teste-popular.png">
 </div>
 

@@ -29,7 +29,7 @@ title: Desenvolvimento Orientado por Teste de Aceite (ATDD)
 <p>
     No passo a passo, os primeiros casos de teste são positivos, confirmando o comportamento correto. Em seguida, a equipe deve realizar os testes negativos. Depois a equipe deve cobrir as características de qualidade não funcional.
     <div class="text-center">
-        <!-- TODO corrigir /feroline.qa-bentevi/ para usar relative_url -->
+        <!-- FIXME corrigir /feroline.qa-bentevi/ para usar relative_url -->
         <img class="img-fluid" src="/feroline.qa-bentevi/assets/images/atdd.png">
     </div>
 </p>

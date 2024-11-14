@@ -10,25 +10,42 @@ title: Tabela de Decisão
     É uma forma eficaz de registrar regras complexas como as Regras de Negócios. Nesta tabela são definidas condições e ações resultantes do sistema. Uma tabela completa cobre todas as combinações de condições, mas pode ser simplificada excluindo ou fundindo condições inviáveis ou que não afetam o resultado.
 </p>
 
-<!-- FIXME: Corrigir TABELA usando exemplo da questão 22 do exame A -->
 <table class="table table-sm table-bordered">
   <thead>
     <tr>
-      <th scope="col"></th>
-      <th scope="col">Ação 1</th>
-      <th scope="col">Ação 2</th>
+      <th scope="col">Condições</th>
+      <th scope="col">Regra 1</th>
+      <th scope="col">Regra 2</th>
+      <th scope="col">Regra 3</th>
     </tr>
   </thead>
   <tbody>
     <tr class="flex-row">
-      <th scope="row">Condição 1</th>
-      <td>Resultado 1.1</td>
-      <td>Resultado 1.2</td>
+      <td scope="row">Condição 1 </td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
     </tr>
     <tr>
-      <th scope="row">Condição 2</th>
-      <td>Resultado 2.1</td>
-      <td>Resultado 2.2</td>
+      <td scope="row">Condição 2</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <th scope="row">Ações</th>
+    </tr>
+    <tr>
+      <td scope="row">Ação 1</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td scope="row">Ação 2</td>
+      <td>N/A</td>
+      <td>X</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
@@ -84,8 +101,7 @@ title: Tabela de Decisão
     </table>
 </p>
 
-<!-- FIXME: Corrigir cálculo de porcentagem para a Tabela de Decisão -->
-<p>A cobertura é feita nas colunas que tem combinações viáveis. Para atingir 100%, todas as colunas devem ser executadas, sendo medida da seguinte forma: O Número total de colunas executadas é dividido pelo total de colunas viáveis, sendo o resultado representado pela letra 'Y', e então espresso na forma de porcentagem, representado pela letra 'C'.</p>
+<p>A cobertura é feita nas colunas que tem combinações viáveis. Para atingir 100%, todas as colunas com combinações viáveis devem ser executadas, sendo medida da seguinte forma: O Número total de colunas executadas é multiplicado por 100 e então o resultado é dividido pelo total de colunas viáveis, sendo o resultado representado em porcentagem pela letra 'C'.</p>
 
 <p>
     <div class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-center">
@@ -93,24 +109,7 @@ title: Tabela de Decisão
         <math>
             <mfrac>
                 <mrow>
-                    <mn> Nº Executados </mn>
-                </mrow>
-                <mn>Nº Total Viável</mn>
-            </mfrac>
-            <mo> = </mo> 
-            <mn> Y </mn>
-        </math>
-    </div>
-    <div class="p-1">
-        &rarr;
-    </div>
-    <div class="p-1">
-        <math>
-            <mfrac>
-                <mrow>
-                    <mn> Y </mn>
-                    <mo> *</mo>
-                    <mn> 100 </mn> 
+                    <mn> Nº Executados * 100 </mn>
                 </mrow>
                 <mn>Nº Total Viável</mn>
             </mfrac>
